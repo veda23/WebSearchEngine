@@ -11,8 +11,7 @@ import java.util.HashMap;
  * if valA.compareTo(valB)is 1, this comparator will return -1.
  * The map that will be used must be passed in the constructor. If the map is null, no
  * comparing will be done, we return 0 by default.
- * @author tanoojp
- *
+ * 
  * @param <T>
  */
 public class DescendingValueComparatorDouble<T> implements Comparator<T> {
